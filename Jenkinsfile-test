@@ -7,13 +7,12 @@ pipeline {
         timestamps()
     }
     timestamps()
-    }
-    stages{
-        stage('Build'){
-            steps{
-                script{
-                    echo "Hello-World"
-                }
+}
+stages {
+    stage('Build') {
+        steps {
+            script {
+                echo "Hello-World"
             }
         }
     }

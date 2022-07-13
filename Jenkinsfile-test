@@ -1,4 +1,7 @@
 @Library("my-shared-library") _
+
+// Carrega a biblioteca o "_" informa para importar todas as variaveis e funcoes neste arquivo
+
 pipeline {
     agent any
     stages {

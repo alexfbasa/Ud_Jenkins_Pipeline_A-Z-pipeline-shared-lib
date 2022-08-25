@@ -13,8 +13,8 @@ class Car {
   	void printOutCar() {
 		script.echo "using script.echo"
   		script.echo "numberOfDoors:${numberOfDoors}"    	
-		script.echo "brand:${brand}"    	
-		script.echo "model:${model}"
+		script.echo "The car brand is:${brand}"
+		script.echo "The car model is:${model}"
   	}  
   
 }

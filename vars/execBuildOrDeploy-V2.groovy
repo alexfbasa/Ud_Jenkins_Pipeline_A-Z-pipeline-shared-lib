@@ -1,5 +1,5 @@
 def call(String command) {
-	if (command == "${build}")
+	if (command == "build")
 	{
 		pipeline {
 			agent any

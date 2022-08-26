@@ -1,0 +1,2 @@
+Esse arquivo sera chamado pelo Jenkinsfile e carregado na funcao de shared-library
+Apenas um teste

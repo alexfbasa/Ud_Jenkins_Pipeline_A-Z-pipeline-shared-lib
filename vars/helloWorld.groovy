@@ -1,3 +1,3 @@
-def call(){
-    println 'Hello-World'
+def call(String name){
+    println 'Hello-World' + name
 }

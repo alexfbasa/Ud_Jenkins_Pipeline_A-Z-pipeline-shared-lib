@@ -1,3 +1,3 @@
-def call(String name, Date d = new Date()) {
-   println "Meu nome eh $name e hoje eh $d"
+def call(String name, String dayOfWeek) {
+   println "Meu nome eh ${name} e hoje eh ${dayOfWeek}."
 }

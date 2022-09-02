@@ -1,6 +1,6 @@
 def call(Map config = [:]) {
    //01 - Carregar o Script
-   loadLinuxScript(name: "hello-world.sh")
+   loadLinuxScript(scriptName: "${scriptName}")
    //02 - Executar o Script
-   sh "./hello-world.sh ${config.name} ${config.dayOfWeek}"
+   sh "./${scriptName} ${config.name} ${config.dayOfWeek}"
 }
